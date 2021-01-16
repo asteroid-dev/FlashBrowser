@@ -53,7 +53,7 @@
       "uninstallDisplayName": "Flash Browser",
       "oneClick": true,
       "perMachine": false,
-      "artifactName": "Flash-Browser-${version}.${ext}"
+      "artifactName": "FlashBrowser.${ext}"
     }
   }
 }
