@@ -4,7 +4,7 @@
   "description": "Lightweight Electron Browser For Games",
   "homepage": "https://www.flashbrw.com",
   "author": "Maatt",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
