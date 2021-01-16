@@ -4,7 +4,7 @@
   "description": "Lightweight Electron Browser For Games",
   "homepage": "https://www.flashbrw.com",
   "author": "Maatt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -48,7 +48,7 @@
       ]
     },
     "nsis": {
-	  "installerIcon": "icon.ico",
+      "installerIcon": "icon.ico",
       "uninstallerIcon": "icon.ico",
       "uninstallDisplayName": "Flash Browser",
       "oneClick": true,

@@ -84,10 +84,6 @@ app.on('ready', () => {
         store.set('windowBounds', { width, height });
     });
 	
-	globalShortcut.register("CTRL+SHIFT+J", () => {
-		mainWindow.webContents.openDevTools();
-	});
-	
 	globalShortcut.register("CTRL+SHIFT+F10", () => {
 		let session = mainWindow.webContents.session;
         session.clearCache();
