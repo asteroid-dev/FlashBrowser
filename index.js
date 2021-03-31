@@ -31,6 +31,8 @@ app.commandLine.appendSwitch("--enable-npapi");
 app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname.includes(".asar") ? process.resourcesPath : __dirname, "plugins/" + pluginName));
 app.commandLine.appendSwitch('disable-site-isolation-trials');
 app.commandLine.appendSwitch('no-sandbox');
+app.commandLine.appendSwitch('ignore-certificate-errors', 'true');
+app.commandLine.appendSwitch('allow-insecure-localhost', 'true');
 
 let sendWindow = (identifier, message) => {
     mainWindow.webContents.send(identifier, message);
